@@ -18,6 +18,6 @@ public class CalculadoraTest {
     @Test
     public void testeFalhaProposital() {
         Operacao op = calc.somar(2, 2);
-        assertEquals(10, op.getResultado()); // vai falhar de propósito
+        assertEquals(10, op.getResultado());
     }
 }
